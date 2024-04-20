@@ -11,7 +11,12 @@ const Workflows = async (props: Props) => {
     <div className="relative flex flex-col gap-4">
       <section className="flex flex-col m-2">
         <MoreCredits />
-        <Workflow />
+        <Workflow
+          description="Test workflow"
+          id="37g827g8dg4872"
+          name="test"
+          publish={false}
+        />
         {/* {workflows?.length ? ( */}
         {/*   workflows.map((flow) => <Workflow key={flow.id} {...flow} />) */}
         {/* ) : ( */}
